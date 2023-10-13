@@ -1,0 +1,35 @@
+/* Write your code here. */
+
+.thumbnail-element-container {
+  padding: 10px 10px 10px 0;
+}
+
+.thumbnail-button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.thumbnail-image-with-opacity {
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+  opacity: 0.5;
+}
+
+.thumbnail-image-without-opacity {
+  opacity: 1;
+}
+
+@media screen and (max-width: 576px) {
+  .thumbnail-element-container {
+    padding: 8px 8px 8px 0;
+  }
+  .thumbnail-image-with-opacity {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+  }
+}
